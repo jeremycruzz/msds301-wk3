@@ -13,7 +13,7 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "mailto: jeremycruz.dev@gmail.com"
 
   socialLinks:
     - icon: "linkedin"
@@ -62,13 +62,10 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: | 
-    Golang Dotnet Python
-    SQL NoSql Gitlab CI/CD
-    React Vue Redux Pinia
-    Jest Cypress
-    Amazon Web Services Google Cloud Platform
-
+  description: |
+    I have fullstack experience with micro front-ends and micro-services. I have a behavioral driven design approach and am profficient in test driven development creating automated unit, integrations, and end to end tests.
+    Experienced in Go, C#, Java, Python, React, Vue, SQL, NoSQL, AWS, GCP, and can quickly learn new languages.
+    I am comfortable communicating to customers, leadership, and hosting learning events.
   button:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
@@ -76,7 +73,7 @@ experience:
 
   button2:
         icon: "icon-profile-fill"
-        btnText: "Code of Ethics: Social Media Platforms and Data"
+        btnText: "Code of Ethics: Social Media"
         URL: "pdf/codeofethics.pdf"
   
 
@@ -133,8 +130,8 @@ client_and_work:
       description: "Created pipeline for solutions using Go, React, and DynamoDb. Reduced 2 week cycle down to 2 minutes."
       button:
         icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
+        btnText: "Qualtrics"
+        URL: "https://www.qualtrics.com/"
       image:
         x: "img/works/qualtrics.png"
         _2x: "img/works/qualtrics.png"
