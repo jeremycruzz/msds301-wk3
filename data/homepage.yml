@@ -1,0 +1,208 @@
+# showcase
+showcase:
+  enable: true
+  title: "I am Jeremy Cruz."
+  subtitle: "Full-Stack Developer"
+  description: "Always be cool"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture.png"
+  imageMobile:
+    x: "img/who-am-i/user-picture.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://radity.com/en/contact/"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/jeremycruzz/"
+
+    - icon: "github"
+      URL: "https://github.com/jeremycruzz"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/jermcruzz/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: |
+    <p class="lead">
+    A software engineer dedicated to producing clean, readable, and testable code across both front-end and back-end environments.
+    While I am committed to writing quality code, I'm also easy-going and get along with other engineers and colleagues in various departments.
+    </p>
+    <p class="lead">
+    My discipline and resilience can be traced back to my days as an army combat medic, a role where precision and effectiveness under pressure were paramount. Taking that frontline experience and combining it with my tech journey has made me who I am today. When I face a challenge, I dive straight in, but always with a level head.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/jeremycruzz/"
+  image:
+    x: "img/showcase/hotdog.png"
+    _2x: "img/showcase/hotdog.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Utah"
+      year: "May 2022"
+      degree: "Bachelor of Science (BS), Computer Science"
+
+    - university: "Northwestern University"
+      year: "May 2025"
+      degree: "Master of Science (MS), Data Science"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: | 
+    Golang Dotnet Python
+    SQL NoSql Gitlab CI/CD
+    React Vue Redux Pinia
+    Jest Cypress
+    Amazon Web Services Google Cloud Platform
+
+  button:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "pdf/resume_1023.pdf"
+
+  button2:
+        icon: "icon-profile-fill"
+        btnText: "Code of Ethics: Social Media Platforms and Data"
+        URL: "pdf/codeofethics.pdf"
+  
+
+  items:
+    - title: "Software Engineer"
+      company: "Solutionreach"
+      duration: "Jan 2023 - Current"
+
+    - title: "Software Engineer"
+      company: "Route"
+      duration: "Jan 2022 - Dec 2022"
+
+    - title: "SDE Intern"
+      company: "Qualtrics"
+      duration: "May 2021  - Aug 2021"
+
+    - title: "Combat Medic"
+      company: "Army"
+      duration: "Jan 2013 - Jan 2017"
+
+    - title: "Technical Analyst"
+      company: "Evergreen Data Systems"
+      duration: "Summer 2012, 2017, 2018"
+
+# Work
+client_and_work:
+  title: "Works"
+  enable: true
+
+  works:
+    - title: "Solutionreach - Integrations"
+      description: "Implement requested features for practice management software. Train team members in BDD and TDD. Create customer facing tools page with edit page for support."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Solutionreach"
+        URL: "https://sync.solutionreach.com/tools/"
+      image:
+        x: "img/works/srtools.png"
+        _2x: "img/works/srtools.png"
+      is_even: true
+
+    - title: "Route - Merchant Platform"
+      description: "Top Engineer Nominee. Host of lunch and learns. Created micro front-ends and micro-services. Led cross team projects. Most reacted to slack post."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Route"
+        URL: "https://route.com/merchants"
+      image:
+        x: "img/works/route.png"
+        _2x: "img/works/route.png"
+      is_even: false
+
+    - title: "Qualtrics - Methodology Platform"
+      description: "Created pipeline for solutions using Go, React, and DynamoDb. Reduced 2 week cycle down to 2 minutes."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/qualtrics.png"
+        _2x: "img/works/qualtrics.png"
+      is_even: true
+
+    - title: "Army - Combat Medic"
+      description: "Mentored and trained junior medics and infantry in combat life saving. Managed vaccine clinic in South Korea. Cross-trained as infantryman."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Join Now"
+        URL: "https://www.goarmy.com/"
+      image:
+        x: "img/works/rmee.png"
+        _2x: "img/works/rmee.png"
+      is_even: false
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: false
+  title: "Contact"
+  form:
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+41 (44) 505 10 99"
+  email:
+    title: "Email"
+    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+  address:
+    title: "Address"
+    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
