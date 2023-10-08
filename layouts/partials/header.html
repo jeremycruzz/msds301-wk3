@@ -4,8 +4,8 @@
       <a class="navbar-brand" href="{{ .Site.BaseURL | absURL }}">
         <img
           class="img-responsive"
-          src="img/general/jclogo.png"
-          srcset="img/general/jclogo.png 1x, img/general/jclogo.png"
+          src="{{ $.Site.BaseURL }}img/general/jclogo.png"
+          srcset="{{ $.Site.BaseURL }}img/general/jclogo.png 1x, {{ $.Site.BaseURL }}img/general/jclogo.png 2x"
           alt="Header Logo"
         />
       </a>

@@ -26,23 +26,13 @@ theme = "raditian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Blog"
+  URL = "/blog"
   weight = 3
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
-  weight = 2
-
-  [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Blog"
+  URL = "/blog"
   weight = 3
 
 

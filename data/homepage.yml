@@ -39,8 +39,8 @@ about:
     </p>
   button:
     icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/in/jeremycruzz/"
+    btnText: "Check out my Blog!"
+    URL: "/blog"
   image:
     x: "img/showcase/hotdog.png"
     _2x: "img/showcase/hotdog.png"
